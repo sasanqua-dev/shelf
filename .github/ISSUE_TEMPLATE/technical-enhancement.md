@@ -1,7 +1,7 @@
 ---
 name: Technical Enhancement
 about: Describe this issue template's purpose here.
-title: ''
+title: "[feat]"
 labels: enhancement
 assignees: ''
 
