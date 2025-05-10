@@ -3,7 +3,9 @@
 {
 	"name": "Shelf",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"dockerComposeFile": "compose.yml",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"service": "client",
 	"features": {
 		"ghcr.io/devcontainers/features/go:1": {},
 		"ghcr.io/itsmechlark/features/postgresql:1": {}
