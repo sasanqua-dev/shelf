@@ -1,6 +1,6 @@
 {
   "name": "skystacks",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This is simple Document Manager",
   "main": "index.js",
   "scripts": {
