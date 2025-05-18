@@ -1,0 +1,19 @@
+{
+  "name": "skystacks",
+  "version": "0.0.1",
+  "description": "This is simple Document Manager",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "cd client && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasanqua-dev/shelf.git"
+  },
+  "author": "sasanqua",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sasanqua-dev/shelf/issues"
+  },
+  "homepage": "https://github.com/sasanqua-dev/shelf#readme"
+}
