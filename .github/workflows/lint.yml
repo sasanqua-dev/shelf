@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         defaults:
           run:
-            working-directory: ./app1
+            working-directory: ./client
         steps:
             - uses: actions/checkout@v2
             - workdir: "./client"
