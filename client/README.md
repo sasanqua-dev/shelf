@@ -1,12 +1,75 @@
-# React + Vite
+# Nuxt Minimal Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make sure to install dependencies:
 
-## Expanding the ESLint configuration
+```bash
+# npm
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
