@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sasanqua-dev/shelf.git"
+    "url": "git+https://github.com/skystacks/sky-stacks.git"
   },
   "author": "sasanqua",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/sasanqua-dev/shelf/issues"
+    "url": "https://github.com/skystacks/sky-stacks/issues"
   },
-  "homepage": "https://github.com/sasanqua-dev/shelf#readme"
+  "homepage": "https://github.com/skystacks/sky-stacks#readme"
 }
