@@ -6,8 +6,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: Move to client directory
-              run: cd client
+            - workdir: "./client"
             - name: Install modules
               run: npm i
             - name: Run ESLint
