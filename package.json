@@ -4,7 +4,8 @@
   "description": "This is simple Document Manager",
   "main": "index.js",
   "scripts": {
-    "dev:client": "cd client && npm run dev"
+    "dev:client": "cd client && npm run dev",
+    "test:server": "cd server && goconvey -host 0.0.0.0 "
   },
   "repository": {
     "type": "git",
