@@ -9,7 +9,6 @@ jobs:
             working-directory: ./client
         steps:
             - uses: actions/checkout@v2
-            - workdir: "./client"
             - name: Install modules
               run: npm i
             - name: Run ESLint
